@@ -1,5 +1,5 @@
 .globl reset
 reset:
-    ldr sp, =stack_top
+    ldr sp, =0x00011000
     bl main
 stop: b stop
