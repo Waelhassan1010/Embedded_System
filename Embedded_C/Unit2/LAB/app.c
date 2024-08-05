@@ -1,5 +1,5 @@
 /**==================================================
---    Author     :   YOUSSEF ADEL YOUSSEF
+--    Author     :   WAEL HASSAN
 --  Description  :   C Program to send a “learn-in-depth:<your_Name>” 
                      by using UART on Versatilepb Board
 ==================================================**/
