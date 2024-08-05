@@ -6,7 +6,7 @@
 
 #include"uart.h"
 
-unsigned char Buffer1_str[100] = "Leran-in-depth:<Youssef_Adel>";
+unsigned char Buffer1_str[100] = "Leran-in-depth:<wael hassan>";
 unsigned char const Buffer2_str[100] = "for test only";
 
 void main(void)
