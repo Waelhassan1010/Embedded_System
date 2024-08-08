@@ -1,0 +1,6 @@
+ arm-none-eabi-as.exe -q -mcpu=arm926ej-s  startup.s -o startup.o
+ arm-none-eabi-gcc.exe -c -I. -g -mcpu=arm926ej-s app.c -o app.o
+ arm-none-eabi-gcc.exe -c -I. -g -mcpu=arm926ej-s uart.c -o uart.o
+ arm-none-eabi-ld.exe -T linker_script.ld app.o uart.o startup.o -o learn_indepth.elf
+
+
