@@ -23,3 +23,5 @@ typedef volatile unsigned long long int vuint64_t;
 
 
 #endif /* PLATFORM_TYPES_H_ */
+
+# define MYRESGISTER *(volatile unsigned long*)
